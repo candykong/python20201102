@@ -1,0 +1,8 @@
+url: /sso-api/login/live/phone-code-login
+method: post
+form: json
+headers:
+  content-type: application/json
+json:
+  code: 123456
+  mobile: 13107700879

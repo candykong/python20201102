@@ -7,12 +7,10 @@ import requests
 import json
 
 from zhiyiLianDanLu.multiApi.jianKongCenter.dataView import DataView
+from zhiyiLianDanLu.testcase.test_base import Test_base
 
 
-
-class Test_dataView():
-    def setup_class(self):
-        print("开始测试")
+class Test_dataView(Test_base):
 
     # @pytest.mark.parametrize("myMonitor",[0,1,2])
     # @pytest.mark.parametrize("rankStatus",[1,2])
@@ -65,14 +63,6 @@ class Test_dataView():
         pytest.assume(result != [])
         pytest.assume(success=="true")
 
-
-
-    def teardown_class(self):
-        print('测试结束')
-#
-#
-# if __name__ == '__main__':
-#     pytest.main()
 
 
 

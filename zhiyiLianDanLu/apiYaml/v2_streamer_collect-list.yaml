@@ -1,0 +1,21 @@
+form: json
+headers:
+  gray_df_token: $gray_df_token
+json:
+  avgRewardTopOneNumLast7DaysMax: 0
+  avgRewardTopOneNumLast7DaysMin: 0
+  avgWatchNumLast7DaysMax: 0
+  avgWatchNumLast7DaysMin: 0
+  endDate: '2020-11-11'
+  fansNumMax: 0
+  fansNumMin: 0
+  gender: 0
+  myMonitor: 1
+  rankStatus: 1
+  rewardNumMax: 0
+  rewardNumMin: 0
+  startDate: '2020-11-11'
+  totalSaleAmountMax: 0
+  totalSaleAmountMin: 0
+method: post
+url: /live-api/v2/streamer/collect-list

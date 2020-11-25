@@ -5,7 +5,7 @@
 __author__ = 'qiangweo'
 
 
-from learn.locust import HttpUser, task,between
+from locust import HttpUser, task,between
 import json
 
 """
